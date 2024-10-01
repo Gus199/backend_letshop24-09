@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "server": "nodemon server",
-    "build": "node server",
+    "build": "server build",
     "data:import": "node seeder",
     "data:destroy": "node seeder -d",
     "dev": "concurrently \"npm run server\" "
